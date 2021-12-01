@@ -33,6 +33,8 @@ content = """
 <h1>Dept: Artfifcial Intelligence and Machine Learning</h1>
 </body>
 </html>
+</body>
+</html>
 """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -47,4 +49,6 @@ print("my webserver is running...")
 httpd.serve_forever()
 ~~~
 ## OUTPUT:
+![github logo](web.png) 
 ## RESULT:
+The Web server has been successfully created
